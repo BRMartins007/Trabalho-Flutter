@@ -4,7 +4,7 @@ void main() {
   runApp(
     Center(
         child: Text(
-      "Pneumoultramicroscopicocilicovulcanoconeotico",
+      "Pneumoultramicroscopicossilicovulcanoconiótico",
       textDirection: TextDirection.ltr,
     )),
   );
