@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 
 void main() {
-  String nome = "Gabriella";
-  String dia = "quinta-feira";
+  String nome = "Bruno";
+  String dia = "Domingo";
   runApp(
     Center(
       child: RichText(
@@ -47,15 +47,15 @@ void main() {
             ),
             TextSpan(
                 text:
-                    "\n Hoje, você terá que escrever um aplicativo em Flutter. O aplicativo deve imprimir um texto na tela. O texto possui trechos com estilos diferentes \n",
+                    "\n Você terá que escrever um código em Flutter. O aplicativo deverá imprimir o texto na tela. \n",
                 style: TextStyle(
                   fontSize: 20,
-                  color: Colors.white,
+                  color: Colors.red,
                   backgroundColor: Colors.black,
                 )),
             TextSpan(text: "\n"),
             TextSpan(
-                text: "\n Boa prática! ",
+                text: "\n Bom trabalho! ",
                 style: TextStyle(
                   fontSize: 20,
                   color: Colors.red,
